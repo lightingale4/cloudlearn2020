@@ -22,7 +22,7 @@ public class PaymentController {
 
     @ApiOperation("新增")
     @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
-    @PostMapping("payments/create")
+    @PostMapping("payments")
     public Integer create(@ApiParam("对象") @RequestBody Payment payment) {
         log.info("新增");
         int i = paymentService.create(payment);
@@ -31,8 +31,8 @@ public class PaymentController {
 
     @ApiOperation("通过id查询")
     @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
-    @GetMapping("payments/id/{id}")
-    public Payment getPayment(@ApiParam("传入id") @PathVariable("id") Long id) {
+    @GetMapping("payments/{id}")
+    public Payment getById(@ApiParam("传入id") @PathVariable("id") Long id) {
         log.info("查询");
         return paymentService.getOneById(id);
     }
