@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc43e08b-46fd-46b1-bfb3-90af6fcecc19" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cloudlearn2020" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Downloads/Repo/learncloud2020" />
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.5.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lvPc7tQlAf2HoqPbJJY1aJ5swq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_261" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc43e08b-46fd-46b1-bfb3-90af6fcecc19" name="Default Changelist" comment="" />
+      <created>1608474667250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608474667250</updated>
+      <workItem from="1608474668756" duration="1905000" />
+      <workItem from="1608476610792" duration="2671000" />
+      <workItem from="1608562625973" duration="2195000" />
+      <workItem from="1608730669248" duration="4319000" />
+      <workItem from="1608960213610" duration="17444000" />
+      <workItem from="1609340422609" duration="52000" />
+      <workItem from="1609340482028" duration="60000" />
+      <workItem from="1609340549261" duration="136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/cloudlearn2020" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="114" key="#Project_Structure" timestamp="1609051716797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="114" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1609051716797" />
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608650886496">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608650886496" />
+    <state x="533" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1609084716114">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1609084716114" />
+    <state x="508" y="287" key="#xdebugger.evaluate" timestamp="1609256475781">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="287" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1609256475781" />
+    <state width="526" height="466" key="DebuggerActiveHint" timestamp="1609256412545">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="526" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1609256412545" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1609340541806">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609340541806" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1609340541804">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609340541804" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1609340541802">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609340541802" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1609340541805">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609340541805" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1609340541810">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609340541810" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.25.1440.813@0.25.1440.813" timestamp="1609256064156" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.25.1440.814@0.25.1440.814" timestamp="1609086994151" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1609340541808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1609340541808" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.25.1440.813@0.25.1440.813" timestamp="1609256064154" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.25.1440.814@0.25.1440.814" timestamp="1609086994149" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1609340541807">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1609340541807" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.25.1440.813@0.25.1440.813" timestamp="1609256064153" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.25.1440.814@0.25.1440.814" timestamp="1609086994148" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1609340541809">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1609340541809" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.25.1440.813@0.25.1440.813" timestamp="1609256064155" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.25.1440.814@0.25.1440.814" timestamp="1609086994150" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1609340541812">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609340541812" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1609340541811">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1609340541811" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1609340541810">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1609340541810" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1609340541812">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1609340541812" />
+    <state x="229" y="25" width="1024" height="814" key="SettingsEditor" timestamp="1609340529360">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="25" width="1024" height="814" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609340529360" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1609255198609">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1609255198609" />
+    <state x="375" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1608960216520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="375" y="281" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1608960216520" />
+    <state x="275" y="82" width="936" height="714" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609255004309">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="275" y="82" width="936" height="714" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1609255004309" />
+    <state x="123" y="161" key="new project wizard" timestamp="1609053565919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="123" y="161" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1609053565919" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1609255090304">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1609255090304" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/Repo/learncloud2020/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1000</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/Repo/learncloud2020/org/springframework/spring-webmvc/5.2.2.RELEASE/spring-webmvc-5.2.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1015</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
