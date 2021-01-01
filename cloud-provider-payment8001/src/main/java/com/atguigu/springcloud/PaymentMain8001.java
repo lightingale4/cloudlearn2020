@@ -12,11 +12,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class PaymentMain8001 {
     public static void main(String[] args) throws InterruptedException {
-        ConfigurableApplicationContext applicationContext =
-                SpringApplication.run(PaymentMain8001.class, args);
-
+        ConfigurableApplicationContext applicationContext = SpringApplication.run(PaymentMain8001.class, args);
         System.out.println("SpringBoot启动好了");
-
 
 
     }
