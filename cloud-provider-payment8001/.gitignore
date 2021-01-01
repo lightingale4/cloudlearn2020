@@ -6,3 +6,8 @@
 /target/
 /bin/
 *.iml
+*.class
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/cloudlearn2020.iml
+.idea/misc.xml
