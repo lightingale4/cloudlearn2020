@@ -9,8 +9,16 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver  #MySQL驱动包
     url: jdbc:mysql://127.0.0.1:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: dingli123
+    password:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities  #所有entity别名类所在包
+
+  #showSql
+  logging:
+    level:
+      com:
+        example:
+          mapper: debug
+
