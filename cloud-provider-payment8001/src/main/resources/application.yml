@@ -11,6 +11,17 @@ spring:
     username: root
     password:
 
+eureka:
+  instance:
+    hostname: localhost # 服务段实例名称
+  client:
+    #表示不想注册中心注册自己
+    register-with-eureka: true
+    #false表示自己端就是注册中心，职责就是维护服务实例，并不需要检索服务
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities  #所有entity别名类所在包
