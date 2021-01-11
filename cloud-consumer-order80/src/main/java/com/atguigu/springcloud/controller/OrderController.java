@@ -32,7 +32,8 @@ public class OrderController {
     @Resource
     private RestTemplate restTemplate;
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    //指定服务提供者；可能是集群多个服务
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @PostMapping("/consumers")
     @ApiOperation("新增")
