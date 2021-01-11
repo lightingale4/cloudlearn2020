@@ -14,6 +14,8 @@ spring:
 eureka:
   instance:
     hostname: localhost # 服务段实例名称
+    instance-id: payment8001
+    prefer-ip-address: true #访问路径可以显示ip地址
   client:
     #表示不向注册中心注册自己
     register-with-eureka: true

@@ -30,7 +30,7 @@ public class PaymentController {
     public Integer create(@ApiParam("对象") @RequestBody Payment payment) {
         log.info("新增");
         int i = paymentService.create(payment);
-        System.out.println("server端口："+serverPort);
+        System.out.println("server端口：" + serverPort);
         return i;
     }
 
@@ -39,7 +39,7 @@ public class PaymentController {
     @GetMapping("payments/{id}")
     public Payment getById(@ApiParam("传入id") @PathVariable("id") Long id) {
         log.info("查询");
-        System.out.println("server端口："+serverPort);
+        System.out.println("server端口：" + serverPort);
         return paymentService.getOneById(id);
     }
 }
