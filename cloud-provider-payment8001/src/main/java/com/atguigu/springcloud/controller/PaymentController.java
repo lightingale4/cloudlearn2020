@@ -2,7 +2,6 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
-import com.netflix.discovery.shared.Applications;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -28,6 +27,10 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
+    /**
+     * spring官方提供的服务发现的restapi
+     * @author ding
+     */
     @Resource
     private DiscoveryClient discoveryClient;
 
