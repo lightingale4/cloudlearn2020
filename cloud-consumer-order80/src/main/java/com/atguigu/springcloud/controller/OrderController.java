@@ -2,12 +2,15 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
+import com.atguigu.springcloud.loadBalance.MyLoadBalance;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import java.net.URI;
+import java.util.List;
 
 /**
  * @author ding
@@ -35,6 +40,12 @@ public class OrderController {
     @Resource
     private RestTemplate restTemplate;
 
+    @Resource
+    private MyLoadBalance myLoadBalance;
+
+    @Resource
+    private DiscoveryClient discoveryClient;
+
     /**
      * 指定服务提供者；可能是集群多个服务
      */
@@ -50,6 +61,7 @@ public class OrderController {
 
     /**
      * getForObject方法返回响应体中数据转化成的对象，可以理解为json
+     *
      * @param id
      * @return
      */
@@ -63,6 +75,7 @@ public class OrderController {
 
     /**
      * 调用REStTempalte的getForEntity,返回对象为ResponseEntity,包含了一些响应的信息，响应头，状态码等
+     *
      * @param id
      * @return
      */
@@ -77,5 +90,20 @@ public class OrderController {
         } else {
             return new CommonResult<>(444, "操作失败");
         }
+    }
+
+    @GetMapping("/consumer/payment/lb")
+    @ApiOperation("查询服务列表")
+    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
+    public String getServices() {
+        List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+
+        if (instances == null || instances.size() <= 0) {
+            return null;
+        }
+        ServiceInstance serviceInstance = myLoadBalance.getServiceInstance(instances);
+        URI uri = serviceInstance.getUri();
+        String resultObject = restTemplate.getForObject(uri + "/payment/payment/lb", String.class);
+        return resultObject;
     }
 }

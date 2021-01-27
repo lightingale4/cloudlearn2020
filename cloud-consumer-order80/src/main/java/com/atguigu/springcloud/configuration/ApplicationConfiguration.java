@@ -16,7 +16,7 @@ public class ApplicationConfiguration {
     /**
      * 通过标记LoadBalanced注解，使得restTemplate可以实现负载均衡
      */
-    @LoadBalanced
+//    @LoadBalanced
     @Bean
     public RestTemplate getRestTemplate() {
         return new RestTemplate();

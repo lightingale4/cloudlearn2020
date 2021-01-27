@@ -75,4 +75,11 @@ public class PaymentController {
 
         return discoveryClient;
     }
+
+    @ApiOperation("获取")
+    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
+    @GetMapping("/payment/lb")
+    public String getPaymentLb(){
+        return serverPort;
+    }
 }
