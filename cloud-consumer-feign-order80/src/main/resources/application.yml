@@ -1,0 +1,23 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka  # 分别向7001和7002注册
+
+
+spring:
+  application:
+    name: cloud-consumer-feign-order80
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #当前数据源操作类型
+    driver-class-name: com.mysql.jdbc.Driver  #MySQL驱动包
+    url: jdbc:mysql://127.0.0.1:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: dingli123
+
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
