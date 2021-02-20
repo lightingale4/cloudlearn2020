@@ -1,0 +1,18 @@
+server:
+  port: 80
+
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+
+feign:
+  hystrix:
+    enabled: true
