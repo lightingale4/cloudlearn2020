@@ -1,19 +1,17 @@
 server:
-  port: 3355
-
+  port: 3366
 
 spring:
   application:
-    name: config-client #注册进eureka服务名
+    name: config-client
   cloud:
-    #config客户端配置
     config:
-      label: master #分支名称
+      label: master
       name: config #配置文件名称
-      profile: dev #读取后缀名称
+      profile: dev
       uri: http://localhost:3344 #配置中心地址
 
-#rabbitmq相关配置15672是web管理界面的端口， 5672是MQ访问的端口
+  #rabbitmq相关配置15672是web管理界面的端口， 5672是MQ访问的端口
   rabbitmq:
     host: localhost
     port: 5672
