@@ -106,4 +106,17 @@ public class OrderController {
         String resultObject = restTemplate.getForObject(uri + "/payment/payment/lb", String.class);
         return resultObject;
     }
+
+    /**
+     * zipkin+sleuth 链路追踪
+     * @return
+     */
+    @ApiOperation("链路调用")
+    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+
+        String result = restTemplate.getForObject("http://localhost:8001" + "/payment/payment/zipkin", String.class);
+        return result;
+    }
 }

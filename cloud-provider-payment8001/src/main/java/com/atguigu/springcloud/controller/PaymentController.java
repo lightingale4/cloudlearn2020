@@ -82,4 +82,11 @@ public class PaymentController {
     public String getPaymentLb(){
         return serverPort;
     }
+
+    @ApiOperation("获取zipkin")
+    @ApiResponses(value = {@ApiResponse(code = 200, message = "成功"), @ApiResponse(code = 400, message = "{code:****,message:'失败'}")})
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "hi i am payment zipkin server fallback";
+    }
 }
