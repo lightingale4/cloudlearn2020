@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+/target/
+.classpath
+.project
+.settings/
+/target/
+/bin/
+*.iml
+*.class
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/cloudlearn2020.iml
+.idea/misc.xml
