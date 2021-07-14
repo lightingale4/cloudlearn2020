@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
  * @author ding
  */
 @Configuration
-public class applicationConfig {
+public class ApplicationConfig {
 
     @Bean
     @LoadBalanced
