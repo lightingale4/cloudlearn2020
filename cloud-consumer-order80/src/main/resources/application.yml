@@ -22,3 +22,4 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka  # 分别向7001和7002注册
+
