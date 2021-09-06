@@ -1,0 +1,8 @@
+application:
+  name: minio
+  port: 8010
+
+minio:
+  endpoint: http://localhost:payment9001
+  accessKey: admin
+  secretKey: admin
